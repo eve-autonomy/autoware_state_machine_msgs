@@ -12,9 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# ---delivery reservation lock state---
 uint16 STATE_ON=0
 uint16 STATE_VERIFICATION=1
 uint16 STATE_OFF=2
+
+# ---shutdown state---
+uint16 STATE_INACTIVE_FOR_SHUTDOWN=3
+uint16 STATE_STANDBY_FOR_SHUTDOWN=4
 
 
 builtin_interfaces/Time stamp
