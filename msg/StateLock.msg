@@ -20,7 +20,7 @@ uint16 STATE_OFF=2
 # ---shutdown state---
 uint16 STATE_INACTIVE_FOR_SHUTDOWN=3
 uint16 STATE_STANDBY_FOR_SHUTDOWN=4
-
+uint16 STATE_START_OF_SHUTDOWN=5
 
 builtin_interfaces/Time stamp
 uint16 state
