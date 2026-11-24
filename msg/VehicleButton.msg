@@ -14,3 +14,4 @@
 
 builtin_interfaces/Time stamp
 bool data
+float32 hold_down_time
